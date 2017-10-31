@@ -85,6 +85,59 @@ h1 {
 
 
 // UX Overrides
+
+.fixed-top {
+  background-color: #8f0d0d!important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.btn-outline-success {
+  color: #ffa3a3;
+  background-image: none;
+  background-color: transparent;
+  border-color: #ffa3a3;
+  &:hover{
+    color: #FFFFFF;
+    background-image: none;
+    background-color: #f57373;
+    border-color: #f57373;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+  background-color: #085656;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .nav-item.show .nav-link {
+  color: #fff;
+  cursor: default;
+  background-color: #99c542;
+}
+
+.nav-pills .nav-link, 
+.nav-pills .nav-item.show .nav-link {
+  color: #99c542;
+  cursor: default;
+  &:hover{
+    color: #FFFFFF;
+  }
+}
+
+
+
+/*
 .fixed-top {
   background-color: #085656!important;
   position: fixed;
@@ -105,3 +158,4 @@ h1 {
     border-color: #06b8b8;
   }
 }
+*/
